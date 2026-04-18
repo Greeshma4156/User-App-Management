@@ -12,7 +12,7 @@ function UserList() {
       async function getUsers() {
         setLoading(true);
         try{
-          let res=await fetch("http://user-app-management-qjjm.onrender.com/user-api/users",{
+          let res=await fetch("https://user-app-management-qjjm.onrender.com/user-api/users",{
           method: "GET"
           });
 
