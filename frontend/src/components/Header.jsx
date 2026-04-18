@@ -22,12 +22,6 @@ function Header() {
                     UserList
                 </NavLink>
             </li>
-
-            <li>
-                <NavLink to="user" className={({isActive})=>(isActive ? "bg-blue-400 text-lime-50 rounded-xs p-2 shadow" : "")}>
-                    User
-                </NavLink>
-            </li>
         </ul>
     </div>
   )
