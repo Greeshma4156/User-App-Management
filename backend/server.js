@@ -10,7 +10,9 @@ const app = exp();
 
 //  Allow both local + deployed frontend
 app.use(cors({
-  origin: ["http://localhost:5173", "*"]
+  origin: [
+    "http://localhost:5173",
+    "https://user-app-management-qjjm.onrender.com"  ]
 }));
 
 app.use(exp.json());
