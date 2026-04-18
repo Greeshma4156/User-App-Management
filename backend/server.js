@@ -19,6 +19,9 @@ app.use(cors({
 app.use(exp.json());
 
 // Routes
+app.get("/", (req, res) => {
+  res.send("Backend is running properly!");
+});
 app.use("/user-api", UserApp);
 
 //  Connect to DB and start server
