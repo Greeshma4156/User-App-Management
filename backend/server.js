@@ -12,7 +12,8 @@ const app = exp();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://user-app-management-qjjm.onrender.com"  ]
+    "https://user-app-management-vo8i.vercel.app"
+  ]
 }));
 
 app.use(exp.json());
